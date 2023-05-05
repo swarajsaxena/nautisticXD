@@ -15,7 +15,7 @@ import Home from './components/Home';
 function App() {
 	return (
 		<BrowserRouter>
-			<div className='app flex flex-col items-center'>
+			<div className='app flex flex-col items-center pb-20'>
 				<Navbar />
 				<Routes>
 					<Route path='/' element={<Home />} />
