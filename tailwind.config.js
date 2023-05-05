@@ -3,8 +3,11 @@ export default {
 	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
 	theme: {
 		extend: {
+			colors: {
+				blueMain: '#38bdf8',
+			},
 			animation: {
-				'spin': 'spin 5s linear infinite',
+				spin: 'spin 5s linear infinite',
 			},
 			keyframes: {
 				spin: {

@@ -9,31 +9,18 @@ import {
 	Routes,
 } from 'react-router-dom';
 import './App.css';
+import Navbar from './components/Navbar';
+import Home from './components/Home';
 
 function App() {
 	return (
 		<BrowserRouter>
-			<Routes>
-				<Route
-					path='/'
-					element={
-						<div className='flex items-center flex-col gap-4'>
-							<div>
-								<a href='https://react.dev' target='_blank'>
-									<img
-										src={reactLogo}
-										className='logo react animate-spin'
-										alt='React logo'
-									/>
-								</a>
-							</div>
-							<h1 className='text-5xl font-semibold'>React Template</h1>
-							<div>With</div>
-							<div>Redeux + Router + TailwindCSS</div>
-						</div>
-					}
-				/>
-			</Routes>
+			<div className='app flex flex-col items-center'>
+				<Navbar />
+				<Routes>
+					<Route path='/' element={<Home />} />
+				</Routes>
+			</div>
 		</BrowserRouter>
 	);
 }
