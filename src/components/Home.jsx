@@ -39,7 +39,7 @@ const Home = () => {
 	return (
 		<div className='relative flex items-center flex-col gap-4 w-full max-w-[1440px] px-4'>
 			<div className='relative cta w-full '>
-				<div className='flex flex-col py-48 z-50 justify-center items-center gap-4'>
+				<div className='flex flex-col py-20 md:py-48 z-50 justify-center items-center gap-4'>
 					<div className='font-extrabold text-3xl sm:text-4xl tracking-tight text-center dark:text-white max-w-[80%]'>
 						Empowering Parents and Caregivers with Early Autism Detection and
 						Intervention Services to Support Children's Development and
