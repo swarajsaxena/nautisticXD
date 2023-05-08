@@ -7,9 +7,10 @@ const Navbar = () => {
     <div className='text-1xl font-extrabold tracking-tight'>NAUTISTIC XD</div>
 
     <div className='flex gap-4 items-center ml-auto'>
-      <Link className='font-medium hover:text-blueMain capitalize transition-all' to={'/test'}>test</Link>
-      <Link className='font-medium hover:text-blueMain capitalize transition-all' to={'/statistics'}>statistics</Link>
-      <Link className='font-medium hover:text-blueMain capitalize transition-all' to={'/login'}>login</Link>
+      <Link className='font-light hover:text-blueMain capitalize tracking-wider transition-all' to={'/'}>home</Link>
+      <Link className='font-light hover:text-blueMain capitalize tracking-wider transition-all' to={'/test'}>test</Link>
+      <Link className='font-light hover:text-blueMain capitalize tracking-wider transition-all' to={'/statistics'}>statistics</Link>
+      <Link className='font-light hover:text-blueMain capitalize tracking-wider transition-all' to={'/login'}>login</Link>
     </div>
   </div>;
 };

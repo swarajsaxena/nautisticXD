@@ -11,6 +11,7 @@ import {
 import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+import Stats from './components/Stats';
 
 function App() {
 	return (
@@ -19,6 +20,7 @@ function App() {
 				<Navbar />
 				<Routes>
 					<Route path='/' element={<Home />} />
+					<Route path='/statistics' element={<Stats />} />
 				</Routes>
 			</div>
 		</BrowserRouter>
