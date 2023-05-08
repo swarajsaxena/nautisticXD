@@ -27,12 +27,12 @@ const Navbar = () => {
 					>
 						statistics
 					</Link>
-					<Link
+					{/* <Link
 						className='font-light hover:text-blueMain capitalize tracking-wider transition-all'
 						to={'/login'}
 					>
 						login
-					</Link>
+					</Link> */}
 				</div>
 			</div>
 		</div>
