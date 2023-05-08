@@ -12,6 +12,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Stats from './components/Stats';
+import Test from './components/Test';
 
 function App() {
 	return (
@@ -21,6 +22,7 @@ function App() {
 				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/statistics' element={<Stats />} />
+					<Route path='/test' element={<Test />} />
 				</Routes>
 			</div>
 		</BrowserRouter>
